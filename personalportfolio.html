@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Siana Thomas Portfolio</title>
     <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -22,13 +29,93 @@
         </label>
         <ul class="list">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#projects">My Work</a></li>
           <li><a href="#">Contact Me</a></li>
         </ul>
       </div>
     </nav>
-    <div class="intro"></div>
+    <header class="intro">
+      <div class="intro-info">
+        <p>Hi, I'm</p>
+        <h2>Siana Thomas</h2>
+        <p>A Junior Front End Web Developer.</p>
+      </div>
+      <div>
+        <img class="intro-img" src="Images/Snapchat-644660666.jpg" />
+      </div>
+    </header>
+    <section class="aboutMe" id="aboutMe">
+      <h3>About Me</h3>
+      <p>
+        I am a fast, active worker who is always on the hunt for new
+        opportunities to learn. I combine an analytical knowledge of coding with
+        a creative flair, as I have a personal passion for art and design.
+      </p>
+      <p>
+        I’m independent and able to prioritise my own workflow, completing each
+        task to the highest of standards, but I also love to collaborate and
+        share ideas as part of a wider team.
+      </p>
+      <p>
+        A studious learner who produces high quality work, I’m also proactive,
+        always excited to share new and imaginative ways of getting the job
+        done.
+      </p>
+      <p>
+        I pride myself on having a strong work ethic, teaching myself HTML and
+        CSS. I am also familiar with Java Script and am currently enjoying
+        expanding my knowledge of website development, letting my creative
+        thirst for knowledge drive me.
+      </p>
+    </section>
+
+    <section class="projects" id="projects">
+      <h3>My Work</h3>
+      <div class="project">
+        <div class="overlay-box" style="background-image: url('Images/Untitled design.png')">
+          <div class="desc">
+            <h4 class="title">Lorren Wills</h4>
+            <P>An author landing page</P>
+            <div class="btns">
+            <button><a>Github Link</a></button>
+            <button><a>View site</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay-box" style="background-image: url('Images/Untitled design (1).png');">
+          <div class="desc">
+            <h4 class="title">KDesigns</h4>
+            <p>A kitchen design company landing page</p>
+            <div class="btns">
+            <button><a>Github Link</a></button>
+            <button><a>View site</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay-box" style="background-image: url('Images/High_Priestess.jpg');">
+          <div class="desc">
+            <h4 class="title">The Witch List</h4>
+            <p>A work in progress</p>
+            <div class="btns">
+            <button><a>Github Link</a></button>
+            <button><a>View site</a></button>
+            </div>
+          </div>
+        </div>
+       
+    </section>
+    <section class="contactMe" id="contactMe">
+      <h4 class="contactTitle">Contact Me</h4>
+      <div class="contactinfo">
+      
+      <p>Thank you for your interest, I would love to hear from you. Please contact me through the email address bellow:</p>
+      <p class="email">sianathomas6@gmail.com</p>
+     </div>
+      </div>
+    </section>
+    <footer>
+      
+    </footer>
   </body>
 </html>
