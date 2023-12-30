@@ -8,9 +8,28 @@
 body {
   background-color: rgb(32, 30, 33);
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 .intro {
   display: flex;
-  margin: 5rem 30rem;
+  justify-content: center;
+  margin: 5rem 15rem;
 }
 .intro-info {
   margin-right: 15rem;
@@ -26,11 +45,13 @@ body {
   border-radius: 50%;
   width: 20rem;
 }
+/* about me */
 .aboutMe {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
-  margin: 10rem 30rem;
+  margin: 10rem 15rem;
 }
 .aboutMe h3 {
   text-align: center;
@@ -40,6 +61,7 @@ body {
 .aboutMe p {
   font-size: 18px;
   line-height: 1.7rem;
+  width: 60rem;
 }
 /*projects*/
 .projects {
@@ -53,10 +75,11 @@ body {
 }
 .project {
   display: grid;
-  gap: 5vh;
+  justify-content: center;
+  gap: 5rem;
   grid-template-columns: auto auto auto;
   position: relative;
-  margin: 5rem 25rem;
+  margin: 7rem 15 rem;
 }
 .title {
   font-size: 26px;

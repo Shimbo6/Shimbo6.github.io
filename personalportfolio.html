@@ -6,6 +6,7 @@
     <title>Siana Thomas Portfolio</title>
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/e682b5943f.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -35,6 +36,9 @@
         </ul>
       </div>
     </nav>
+    <section class="scrollup">
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
+    </section>
     <header class="intro">
       <div class="intro-info">
         <p>Hi, I'm</p>
@@ -115,21 +119,28 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="left">
-        <h1>Siana Thomas</h1>
-      </div>
-      <div class="footnav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#aboutMe">About Me</a></li>
-          <li><a href="#projects">My Work</a> </li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </div>
       <div class="socials">
-        
+        <i class="fa-brands fa-linkedin-in"><a src=""></a> </i>
+        <i class="fa-brands fa-github"><a src=""></a> </i>
       </div>
       
     </footer>
   </body>
+  <script>
+    let mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }</script>
 </html>
