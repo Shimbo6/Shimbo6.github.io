@@ -29,7 +29,7 @@ body {
 .intro {
   display: flex;
   justify-content: center;
-  margin: 5rem 15rem;
+  margin: 5rem 20rem;
 }
 .intro-info {
   margin-right: 15rem;
@@ -38,27 +38,27 @@ body {
   font-size: 20px;
   margin: 0.5rem;
 }
-.intro-info h2 {
-  font-size: 36px;
+.intro-info h1 {
+  font-size: 66px;
 }
 .intro-img {
   border-radius: 50%;
   width: 20rem;
 }
 /* about me */
-.aboutMe {
+.about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
   margin: 10rem 15rem;
 }
-.aboutMe h3 {
+.about-me h3 {
   text-align: center;
   font-size: 32px;
   padding-bottom: 3rem;
 }
-.aboutMe p {
+.about-me p {
   font-size: 18px;
   line-height: 1.7rem;
   width: 60rem;
@@ -137,22 +137,22 @@ body {
   border-radius: 10%;
 }
 /* contact */
-.contactMe {
+.contact-me {
   margin: 15rem;
 }
-.contactTitle {
+.contact-title {
   font-size: 32px;
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
 }
-.contactinfo {
+.contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contactinfo p {
+.contact-info p {
   width: 25rem;
   font-size: 22px;
 }
