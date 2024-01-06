@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="Responsive.css">
   </head>
   <body>
     <nav class="navbar">
@@ -82,7 +83,7 @@
             <h4 class="title">Lorren Wills</h4>
             <P>An author landing page</P>
             <div class="btns">
-            <button><a>Github Link</a></button>
+            <button><a >Github Link</a></button>
             <button><a>View site</a></button>
             </div>
           </div>
@@ -99,10 +100,10 @@
         </div>
         <div class="overlay-box" style="background-image: url('Images/High_Priestess.jpg');">
           <div class="desc">
-            <h4 class="title">The Witch List</h4>
-            <p>A work in progress</p>
+            <h4 class="title">Merringtons</h4>
+            <p>A hair salon</p>
             <div class="btns">
-            <button><a>Github Link</a></button>
+            <button><a href="https://github.com/Shimbo6/Merringtons">Github Link</a></button>
             <button><a>View site</a></button>
             </div>
           </div>
@@ -115,7 +116,6 @@
       
       <p>Thank you for your interest, I would love to hear from you. Please contact me through the email address bellow:</p>
       <p class="email">sianathomas6@gmail.com</p>
-     </div>
       </div>
     </section>
     <footer class="footer">
@@ -126,21 +126,6 @@
       
     </footer>
   </body>
-  <script>
-    let mybutton = document.getElementById("myBtn");
-    
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    function topFunction() {
-      document.body.scrollTop = 0; 
-      document.documentElement.scrollTop = 0; 
-    }</script>
+  <script src="scrollup.js">
+   </script>
 </html>

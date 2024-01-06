@@ -1,0 +1,176 @@
+@media screen and (max-width: 1440px) {
+  .intro-info {
+    margin-right: 10rem;
+  }
+  .intro-info h1 {
+    font-size: 66px;
+  }
+  /*projects*/
+
+  .title {
+    font-size: 22px;
+  }
+
+  .desc p {
+    font-size: 16px;
+  }
+
+  .btns button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .overlay-box {
+    width: 18rem;
+    height: 13rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro-info p {
+    font-size: 18px;
+  }
+  .intro-info h1 {
+    font-size: 62px;
+  }
+  .intro-img {
+    width: 19rem;
+  }
+
+  /* about me */
+  .about-me {
+    margin: 10rem;
+  }
+  /*projects*/
+  .project {
+    gap: 4rem;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .desc p {
+    font-size: 14px;
+  }
+
+  .btns button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .overlay-box {
+    width: 15rem;
+    height: 10rem;
+  }
+}
+@media screen and (max-width: 805px) {
+  .intro-info {
+    margin-right: 3rem;
+  }
+
+  .intro-info h1 {
+    font-size: 56px;
+  }
+  .intro-img {
+    width: 13rem;
+  }
+  /* about me */
+  .about-me {
+    margin: 10rem 5rem;
+  }
+  /*projects*/
+  .projects {
+    margin-bottom: 15rem;
+  }
+  .project {
+    gap: 5rem;
+    grid-template-columns: auto;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .desc p {
+    font-size: 18px;
+  }
+
+  .btns button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .overlay-box {
+    width: 20rem;
+    height: 15rem;
+  }
+  /*contact*/
+  .contact-me {
+    margin: 10rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    gap: 5rem;
+  }
+  .intro-info {
+    margin-right: 0rem;
+  }
+
+  .intro-img {
+    width: 15rem;
+  }
+  /* about me */
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 10rem 3rem;
+  }
+  /*projects*/
+
+  .project {
+    margin: 5rem;
+  }
+  .overlay-box {
+    width: 18rem;
+    height: 13rem;
+  }
+  /* contact */
+  .contact-me {
+    margin: 5rem;
+  }
+  .contact-title {
+    padding-bottom: 3rem;
+  }
+
+  .contact-info p {
+    width: 18rem;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /*projects*/
+  .title {
+    font-size: 22px;
+  }
+  .desc p {
+    padding: 1rem 0.5rem;
+    font-size: 14px;
+  }
+
+  .overlay-box {
+    width: 15rem;
+    height: 10rem;
+  }
+  .contact-me {
+    margin: 3rem;
+  }
+  .contact-info p {
+    width: 16rem;
+    font-size: 18px;
+  }
+}

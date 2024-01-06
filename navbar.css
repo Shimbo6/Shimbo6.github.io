@@ -14,7 +14,7 @@
 }
 
 .left h1 {
-  font-size: 2.5rem;
+  font-size: 8vh;
   cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
   transition: all 1s;
   color: rgb(107, 102, 109);
 }
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 905px) {
   .list {
     width: 100%;
     height: 100vh;
