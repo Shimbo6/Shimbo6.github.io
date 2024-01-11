@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-.checkBtn {
+.check-btn {
   display: none;
 }
 
@@ -26,7 +26,7 @@
   display: none;
 }
 
-.checkBtn {
+.check-btn {
   cursor: pointer;
   font-size: 30px;
   float: right;
@@ -86,7 +86,7 @@
     display: none;
   }
 
-  .checkBtn {
+  .check-btn {
     display: block;
   }
 
