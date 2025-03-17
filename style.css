@@ -166,3 +166,29 @@ body {
   padding-top: 2rem;
   color: #a1329a;
 }
+
+/* Index 2 */
+
+.scripts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem 5rem;
+}
+h2 {
+  margin-bottom: 5rem;
+}
+.name {
+  margin-bottom: 4rem;
+}
+h3 {
+  margin: 1rem 0rem;
+}
+.BeAmazed {
+  background-color: #555;
+  padding: 3rem 7rem;
+}
+.brief {
+  margin-bottom: 5rem;
+}
